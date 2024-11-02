@@ -1,0 +1,302 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+
+@font-face{
+font-family:'Helvetica';
+src: local('Helvetica.zip')
+}
+
+
+nav{
+        background-color: white;
+        border-radius: 10px 10px 10px 10px;
+        background-color: 0.1;
+        background-repeat: repeat-x;
+        font-family: 'Helvetica', sans-serif;
+        line-height: 2em;
+        font-style: normal;
+        color:black;
+        float:left;
+        font-size: 130%;
+        font-weight: bold;
+        margin-top:5px;
+        margin-left: 5px;
+      }
+
+      nav ul{
+        list-style-type: none;
+        text-align: center;
+        text-indent: 10px;
+      }
+
+      nav li{
+        margin-left: 30px;
+        margin-right:38px;
+        margin-bottom: 8px;
+        display:inline;
+      }
+
+      nav li a{
+        text-decoration:none;
+        color: black;
+      }
+
+      nav li a:hover{
+        color: #ac6504;
+      }
+
+      .nav-pills > li > a.active {
+    background-color: #ae7756 !important;
+}
+      .nav-pills > li > a{
+    color: black !important;
+}
+
+  #kamila{
+    height: 575px;
+    width:920px;
+    margin-top:20px;
+    margin-left:5px;
+    float:left;
+}
+
+#title{
+font-family:'Helvetica';
+border: medium outset #80CDFF;
+padding:50px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+margin-right:30px;
+margin-left:960px;
+margin-top:290px;
+font-size: 27px;
+letter-spacing: 0.05em;
+
+}
+
+  #team{
+  font-family:'Helvetica', sans-serif;
+  font-weight:bold;
+  float:left;
+  position:absolute;
+  margin-top:260px;
+  margin-left:25px;
+  font-size: 20px;
+}
+
+  #women_title{
+  font-family:'Helvetica', sans-serif;
+  float:left;
+  position:absolute;
+  margin-top:300px;
+  margin-left:20px;
+  font-size: 20px;
+  border: medium outset #a87d3380;
+  padding:10px;
+  border-radius: 20px 20px 20px 20px;
+  }
+
+  #women{
+    font-weight:normal;
+}
+
+    #women_title ul{
+      list-style-type: none;
+      margin-bottom:20px;
+      }
+
+      #women_title li{
+        margin-bottom:12px;
+        margin-top:10px;
+        }
+      #women_title a{
+        text-decoration:none;
+        color:#ac6504;
+}
+
+      #women_title a:hover{
+              color:black;
+      }
+
+
+
+
+#men_title{
+  font-family:'Helvetica', sans-serif;
+  float:left;
+  position:absolute;
+  margin-top:300px;
+  margin-left:300px;
+  font-size: 20px;
+  border: medium outset #a87d3380;
+  padding:10px;
+  border-radius: 20px 20px 20px 20px;
+  }
+
+#men{
+  font-weight:normal;
+}
+
+#men_title ul{
+        list-style-type: none;
+        margin-bottom:20px;
+}
+
+#men_title li{
+        margin-bottom:12px;
+        margin-top:10px;
+}
+
+#men_title a{
+        text-decoration:none;
+        color:#ac6504;
+}
+
+#men_title a:hover{
+        color:black;
+}
+
+#pair_title{
+  font-family:'Helvetica', sans-serif;
+  float:left;
+  position:absolute;
+  margin-top:300px;
+  margin-left:580px;
+  font-size: 20px;
+  border: medium outset #a87d3380;
+  padding:10px;
+  border-radius: 20px 20px 20px 20px;
+  }
+
+  #pair{
+    font-weight:normal;
+}
+
+    #pair_title ul{
+      list-style-type: none;
+      margin-bottom:20px;
+      }
+
+      #pair_title li{
+        margin-bottom:12px;
+        margin-top:10px;
+        }
+      #pair_title a{
+        text-decoration:none;
+        color:#ac6504;
+}
+
+      #pair_title a:hover{
+              color:black;
+      }
+
+      #rings{
+      padding-top:5px;
+      }
+
+#dance_title{
+  font-family:'Helvetica', sans-serif;
+  float:left;
+  position:absolute;
+  margin-top:300px;
+  margin-left:875px;
+  font-size: 20px;
+  border: medium outset #a87d3380;
+  padding:10px;
+  border-radius: 20px 20px 20px 20px;
+  }
+
+  #dance{
+    font-weight:normal;
+}
+
+    #dance_title ul{
+      list-style-type: none;
+      margin-bottom:20px;
+      }
+
+      #dance_title li{
+        margin-bottom:12px;
+        margin-top:10px;
+        }
+      #dance_title a{
+        text-decoration:none;
+        color:#ac6504;
+}
+
+      #dance_title a:hover{
+              color:black;
+      }
+
+#team_team{
+  font-family:'Helvetica', sans-serif;
+  font-weight:bold;
+  font-size:20px;
+  position:absolute;
+  margin-top:530px;
+  margin-left:25px;
+}
+
+#podium{
+  position:absolute;
+  margin-top:580px;
+  margin-left:20px;
+  box-shadow: 0 0 10px #444;
+}
+
+#team_list_title{
+  font-family:'Helvetica', sans-serif;
+  float:left;
+  position:absolute;
+  margin-top:1228px;
+  margin-left:25px;
+  font-size: 20px;
+  border: medium outset #a87d3380;
+  padding:10px;
+  border-radius: 20px 20px 20px 20px;
+  }
+
+  #team_list{
+    font-weight:normal;
+}
+
+    #team_list_title ul{
+      list-style-type: none;
+      margin-bottom:20px;
+      }
+
+      #team_list_title li{
+        margin-bottom:12px;
+        margin-top:10px;
+        }
+      #team_list_title a{
+        text-decoration:none;
+        color:#ac6504;
+}
+
+      #team_list_title a:hover{
+              color:black;
+      }
+
+
+#text{
+margin-top:1498px;
+margin-left:30px;
+font-family:'Helvetica', sans-serif;
+font-size:15px;
+letter-spacing:0.09em;
+}
+
+
+#small_image{
+margin-top:15px;
+margin-left:25px;
+}
+
+.nav-pills > li > a {
+    background:#FFF;
